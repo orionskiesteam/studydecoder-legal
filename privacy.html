@@ -1,74 +1,181 @@
-Privacy Policy (v0.1)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Study Decoder — Privacy Policy</title>
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0f172a; --muted:#475569; --card:#f8fafc; --border:#e2e8f0;
+      --link:#2563eb; --code:#0b1220;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b1220; --fg:#e5e7eb; --muted:#9ca3af; --card:#0f1a33; --border:#223055;
+        --link:#60a5fa; --code:#e5e7eb;
+      }
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      background:var(--bg);
+      color:var(--fg);
+    }
+    .wrap{max-width:860px; margin:0 auto; padding:32px 20px 56px}
+    header{margin-bottom:18px}
+    h1{font-size:28px; line-height:1.2; margin:0 0 8px}
+    .meta{color:var(--muted); font-size:14px}
+    nav{
+      margin:18px 0 26px;
+      padding:14px 16px;
+      border:1px solid var(--border);
+      background:var(--card);
+      border-radius:12px;
+    }
+    nav .label{font-weight:600; margin-bottom:6px}
+    nav ul{margin:8px 0 0; padding-left:18px}
+    nav li{margin:6px 0}
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    section{
+      border:1px solid var(--border);
+      background:var(--card);
+      border-radius:14px;
+      padding:18px 18px 6px;
+      margin:14px 0;
+    }
+    h2{font-size:18px; margin:0 0 10px}
+    h3{font-size:15px; margin:14px 0 8px; color:var(--fg)}
+    p{margin:10px 0}
+    ul{margin:8px 0 14px; padding-left:18px}
+    li{margin:6px 0}
+    .note{color:var(--muted); font-size:14px}
+    footer{margin-top:18px; color:var(--muted); font-size:13px}
+    .pill{
+      display:inline-block; padding:2px 8px; border:1px solid var(--border);
+      border-radius:999px; font-size:12px; color:var(--muted); background:transparent;
+      vertical-align:middle; margin-left:6px
+    }
+  </style>
+</head>
 
-Effective Date: January 12, 2026
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Privacy Policy <span class="pill">v0.1</span></h1>
+      <div class="meta"><strong>Effective date:</strong> January 12, 2026</div>
+      <p class="note">
+        Study Decoder (“the App”) respects your privacy. This Privacy Policy explains what information is collected,
+        how it is used, and how it is handled when you use the App.
+      </p>
+    </header>
 
-Study Decoder (“the App”) respects your privacy. This Privacy Policy explains what information is collected, how it is used, and how it is handled when you use the App.
+    <nav aria-label="Table of contents">
+      <div class="label">Contents</div>
+      <ul>
+        <li><a href="#collect">1. Information We Collect</a></li>
+        <li><a href="#use">2. How We Use Information</a></li>
+        <li><a href="#ai">3. AI Processing</a></li>
+        <li><a href="#retention">4. Data Retention</a></li>
+        <li><a href="#sharing">5. Data Sharing</a></li>
+        <li><a href="#children">6. Children’s Privacy</a></li>
+        <li><a href="#changes">7. Changes to This Policy</a></li>
+        <li><a href="#contact">8. Contact</a></li>
+      </ul>
+    </nav>
 
-⸻
+    <section id="collect">
+      <h2>1. Information We Collect</h2>
 
-1. Information We Collect
+      <h3>a. User-Provided Content</h3>
+      <p>When you use Study Decoder, you may upload PDF files containing lecture slides or study materials.</p>
+      <ul>
+        <li>These files are processed solely to generate exam-style study questions.</li>
+        <li>
+          Uploaded PDF content is processed using third-party AI services (e.g., hosted language models).
+          Personal data is transmitted off-device only for the purpose of generating study questions, and this occurs
+          only after the user explicitly initiates the upload.
+        </li>
+        <li>Uploaded PDFs are deleted immediately after processing and are not stored.</li>
+      </ul>
 
-a. User-Provided Content
+      <h3>b. Usage Data</h3>
+      <p>
+        We may collect limited, anonymous usage data to understand how the App is used (e.g., feature usage, error events).
+        This data does not identify you personally.
+      </p>
 
-When you use Study Decoder, you may upload PDF files containing lecture slides or study materials.
-	•	These files are processed solely to generate exam-style study questions.
-	•	Uploaded PDF content is processed using third-party AI services (e.g., hosted language models). Personal data is transmitted off-device only for the purpose of generating study questions, and this occurs only after the user explicitly initiates the upload.
-	•	Uploaded PDFs are deleted immediately after processing and are not stored.
+      <h3>c. Payment Information</h3>
+      <p>
+        All payments and subscriptions are processed by Apple through In-App Purchases.
+        We do not collect, store, or have access to your payment information.
+      </p>
+    </section>
 
-b. Usage Data
+    <section id="use">
+      <h2>2. How We Use Information</h2>
+      <p>We use collected information only to:</p>
+      <ul>
+        <li>Process uploaded PDFs and generate study questions</li>
+        <li>Improve app performance and reliability</li>
+        <li>Manage subscriptions and access to paid features (via Apple)</li>
+      </ul>
+    </section>
 
-We may collect limited, anonymous usage data to understand how the App is used (e.g., feature usage, error events). This data does not identify you personally.
+    <section id="ai">
+      <h2>3. AI Processing</h2>
+      <p>Uploaded content is processed using third-party artificial intelligence services to generate exam-style questions and study insights.</p>
+      <ul>
+        <li>Content is sent only for the purpose of processing</li>
+        <li>Content is not used to train models on our behalf</li>
+        <li>Content is deleted immediately after processing</li>
+      </ul>
+    </section>
 
-c. Payment Information
+    <section id="retention">
+      <h2>4. Data Retention</h2>
+      <ul>
+        <li><strong>Uploaded PDFs:</strong> Deleted immediately after processing</li>
+        <li><strong>Usage analytics:</strong> Retained in aggregated or anonymized form only</li>
+      </ul>
+    </section>
 
-All payments and subscriptions are processed by Apple through In-App Purchases.
-We do not collect, store, or have access to your payment information.
+    <section id="sharing">
+      <h2>5. Data Sharing</h2>
+      <p>
+        We do not sell, rent, or share your personal data with advertisers or third parties, except as necessary to
+        operate the App (e.g., AI processing services, Apple subscription services).
+      </p>
+    </section>
 
-⸻
+    <section id="children">
+      <h2>6. Children’s Privacy</h2>
+      <p>
+        Study Decoder is not intended for use by children under the age of 13.
+        We do not knowingly collect personal information from children.
+      </p>
+    </section>
 
-2. How We Use Information
+    <section id="changes">
+      <h2>7. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
+      </p>
+    </section>
 
-We use collected information only to:
-	•	Process uploaded PDFs and generate study questions
-	•	Improve app performance and reliability
-	•	Manage subscriptions and access to paid features (via Apple)
+    <section id="contact">
+      <h2>8. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact us at:
+        <a href="mailto:orionskies.team@gmail.com">orionskies.team@gmail.com</a>
+      </p>
+    </section>
 
-⸻
-
-3. AI Processing
-
-Uploaded content is processed using third-party artificial intelligence services to generate exam-style questions and study insights.
-	•	Content is sent only for the purpose of processing
-	•	Content is not used to train models on our behalf
-	•	Content is deleted immediately after processing
-
-⸻
-
-4. Data Retention
-	•	Uploaded PDFs: Deleted immediately after processing
-	•	Usage analytics: Retained in aggregated or anonymized form only
-
-⸻
-
-5. Data Sharing
-
-We do not sell, rent, or share your personal data with advertisers or third parties, except as necessary to operate the App (e.g., AI processing services, Apple subscription services).
-
-⸻
-
-6. Children’s Privacy
-
-Study Decoder is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.
-
-⸻
-
-7. Changes to This Policy
-
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
-
-⸻
-
-8. Contact
-
-If you have questions about this Privacy Policy, contact us at:
-orionskies.team@gmail.com
+    <footer>
+      <p class="note">If you believe this policy does not reflect the App’s behavior, contact us using the email above.</p>
+    </footer>
+  </main>
+</body>
+</html>
